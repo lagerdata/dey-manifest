@@ -8,8 +8,9 @@
   <remote name="swu"   fetch="git://github.com/sbabic"/>
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="lagerdata"  fetch="git://github.com/lagerdata"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="thud">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="lagerdata" revision="thud">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
   <project name="meta-freescale.git"    path="sources/meta-freescale"    remote="yocto" revision="thud"/>
